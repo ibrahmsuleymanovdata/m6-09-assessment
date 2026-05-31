@@ -1,0 +1,16 @@
+{
+    "first_name": "ibrahim",
+    "last_name": "Suleymanov",
+    "team": "Ibrahim-Suleymanov",
+    "model": {
+        "framework": "yolo26",
+        "variant": "yolo26n",
+        "imgsz": 640,
+        "epochs_total": 30,
+        "tricks": [
+            "mosaic",
+            "cos_lr"
+        ]
+    },
+    "notes": "YOLO26 model optimized for CPU inference."
+}

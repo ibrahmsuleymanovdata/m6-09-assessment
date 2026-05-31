@@ -1,0 +1,4 @@
+image_path,xmin,ymin,xmax,ymax,confidence,class
+0008ab3d8674f6ca(1).jpg,253.3,1444.9,1948.4,2608.9,0.95,cat
+0013eebbcafa70e5(1).jpg,734.9,406.6,1943.9,1669.7,0.94,cat
+0019edb653711193.jpg,378.1,273.5,1775.0,1085.6,0.96,cat
