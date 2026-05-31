@@ -1,7 +1,7 @@
 {
     "first_name": "ibrahim",
     "last_name": "Suleymanov",
-    "team": "Ibrahim-Suleymanov",
+    "team": "ibrahim-suleymanov",
     "model": {
         "framework": "yolo26",
         "variant": "yolo26n",

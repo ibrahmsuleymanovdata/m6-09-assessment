@@ -1,19 +1,8 @@
 FROM python:3.11-slim
-
 WORKDIR /app
-
-
-COPY container/requirements.txt .
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-
-
-COPY container/app/ .
-
-
-COPY container/models/ ./models/
-
-
-COPY container/STUDENT.json .
-
-
-ENTRYPOINT ["python", "cli.py"]
+COPY app/ ./app/
+COPY models/ ./models/
+COPY STUDENT.json .
+ENTRYPOINT ["python", "/app/app/cli.py"]
